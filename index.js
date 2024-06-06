@@ -1,5 +1,5 @@
 import express from "express";
-import Router from "./src/routes/parciales.routes.js"; //"type": "module"
+import Router from "./src/routes/alumnos.routes.js"; 
 
 const app = express();
 const PORT = 8080;
