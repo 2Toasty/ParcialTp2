@@ -1,6 +1,6 @@
 Parcial de Taller de Programación 2
 
-Docente: Rolo, Debora
+Docente: Rolon, Debora
 
 Alumno: Torres Marques, Facundo Emanuel
 

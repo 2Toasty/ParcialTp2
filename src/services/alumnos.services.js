@@ -1,9 +1,11 @@
-import AlumnosModel from "../models/alumnos.models.js"
-
+// import AlumnosModel from "../models/alumnos.models.js"
+import ModelFactory from "../models/Factory.js";
+import config from "../../config.js"
 
 class AlumnosServices{
     constructor(){
-        this.model = new AlumnosModel();
+        // this.model = new AlumnosModel();
+        this.model = ModelFactory.get(config.PERSISTENCE);
     }
 
     getAlumnos = async () => {
